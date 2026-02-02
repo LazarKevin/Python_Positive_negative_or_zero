@@ -14,6 +14,8 @@ def categorize_number(number):
     Returns:
         str: "Pozitív" ha a szám > 0, "Negatív" ha < 0, "Nulla" ha = 0
 
+    
+
 
     TODO: Implementáld ezt a függvényt!
     Példa:
@@ -22,4 +24,12 @@ def categorize_number(number):
         categorize_number(0) -> "Nulla"
     """
     # TODO: Írd meg az implementációt!
-    pass
+    
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        return "Negative"
+    else:
+        return "Zero"
+    
+
